@@ -13,14 +13,14 @@ function App() {
   }, [notes]);
 
   useEffect(() => {
-    setActiveNote(notes[0].id);
+    setActiveNote(notes.id);
   }, []);
 
   const onAddNote = () => {
-    console.log("Add a new note");
+    console.log("Add a new memo");
     const newNote = {
       id: uuid(),
-      title: "new note",
+      title: "new memo",
       content: "",
       modDate: Date.now(),
     };

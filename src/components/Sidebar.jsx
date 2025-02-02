@@ -8,7 +8,7 @@ const Sidebar = ({ onAddNote, notes, onDeleteNote, activeNote, setActiveNote }) 
     return (
     <div className='app-sidebar'>
         <div className='app-sidebar-header'>
-            <h1>note</h1>
+            <h1>memo</h1>
             <button onClick={onAddNote}><FaRegPenToSquare /></button>
         </div>
         <div className='app-sidebar-notes'>

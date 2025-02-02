@@ -14,7 +14,7 @@ console.log(onUpdateNote);
   }
 
   if (!activeNote) {
-    return <div className='no-active-note'>note is none</div>
+    return <div className='no-active-note'>memo is none</div>
   }
   return (
     <div className='app-main'>
